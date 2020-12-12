@@ -1,13 +1,17 @@
-﻿body { 
-    font-size:18px;
-    color:black;
-    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+﻿body{
+        font-size: 18px;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        background-image: url('mountains.jpg');
+        background-attachment: fixed; 
+
 }
 
 h1, h2, h3, h4, h5, h6 { 
     font-family:"Comic Sans MS", cursive;
     color:rgb(255,93,0) !important; 
     /* background:linear-gradient(white, black); */
+    text-shadow: 2px 2px white;
 }  
 
 h2 {
@@ -50,9 +54,15 @@ nav a {
 
 
 nav {
-    border-bottom:1px solid;
-    margin-top:10px;
-    padding-bottom:5px;
+    
+    background-color:black;
+    /* margin-top:10px; */
+    /* padding-bottom:5px;*/
+    padding-top:10px;
+    background-image:url(star.png);
+    background-repeat:repeat-x;
+    height:28px;
+
 }
 
 aside {

@@ -1,6 +1,6 @@
 ﻿body { 
     font-size:18px;
-    color:black;
+    color:rgb(61, 60, 60);;
     font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
@@ -22,7 +22,7 @@ article h2 {
 header {
     font-size:52px;
     color: whitesmoke;
-    text-shadow: 4px 4px rgb(138,135,130);
+    text-shadow: 4px 4px rgb(66, 56, 46);
     text-align:center;
     border:5px solid; 
     border-color: rgb(70, 36, 13);
@@ -32,10 +32,11 @@ header {
 }
 
 aside {
-    background: linear-gradient(white, rgb(255,93,0));
+    background: linear-gradient(white 50px, rgb(255,93,0));
 }
 nav a:hover {
-    background-color:lightgray;
+    background-color:rgb(248, 201, 169);
+    color:rgb(61, 60, 60);
 }
 
 nav a {
